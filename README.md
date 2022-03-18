@@ -1,2 +1,3 @@
 # pomodoro-imc
- code quand je m'ennuie
+Training JS
+
