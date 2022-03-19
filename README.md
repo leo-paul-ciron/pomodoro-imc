@@ -1,4 +1,4 @@
 # pomodoro-imc
 Training JS
 
-![capture pomodoro](https://i.ibb.co/4PZGj6T/pomodoro.jpg)
+![capture pomodoro](https://i.ibb.co/Jz2RKtg/pomodoro.jpg)
