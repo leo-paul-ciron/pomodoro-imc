@@ -1,0 +1,133 @@
+#screen{
+background-color: rgb(219, 82, 77);
+height: 100vh;
+width: 100vw;
+
+}
+#enable{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 50px 0  0 50px;
+    border-bottom: 1px solid white  ;
+}
+
+span{
+    font-size: 20px;
+}
+
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between ;
+    height: 25vh;
+
+    background-color: rgb(255, 255, 255, 0.1);
+    margin: 20vh 30vw 0 30vw;
+
+    padding: 4vh 0;
+    border-radius: 15px;
+}
+
+button{
+    border:none;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    background-color: transparent;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SelectButton{
+    background-color: whitesmoke;
+    color: rgb(219, 82, 77) ;
+    box-shadow: 8px 5px black;
+    margin: 0 0 0 20px;
+}
+
+#Stop{
+    display: none;
+}
+
+#Reset{
+    display: none;
+}
+
+#Pomodoro{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#CourtePause{
+    background-color: transparent;
+}
+
+#LonguePause{
+    background-color: transparent;
+}
+
+#time{
+    color: white;
+    font-size: 65px;
+    font-family: monospace;
+}
+
+h2{ 
+    position: relative;
+    left: 30vw;
+    top: -10vh;
+    color: white;
+    font-size: 20px;
+    width: 10vw;
+}
+
+.onoffswitch {
+    position: relative; 
+    width: 60px;
+    left: 32vw;
+    top: -9vh;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+
+    
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 36px; padding: 0; line-height: 36px;
+    border: 2px solid #E3E3E3; border-radius: 36px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 36px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 22px;
+    border: 2px solid #E3E3E3; border-radius: 36px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #49E845;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #49E845;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
