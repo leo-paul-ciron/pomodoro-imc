@@ -1,1 +1,0 @@
-$NewMDP = Set-MsolUserPassword -UserPrincipalName "AdresseMail" -ForceChangePassword $true
